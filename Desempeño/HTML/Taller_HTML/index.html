@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea en html</title>
+</head>
+<body>
+    <center><h1> <span style="color: blueviolet;">Página Web</span> </h1></center>
+    
+    <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati sapiente ab quos suscipit qui aperiam mollitia architecto. Hic ducimus ab incidunt. Enim iusto consequuntur ea voluptatem ipsa deserunt repellat nobis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit corrupti dolorum dolor omnis sit facilis, neque in, aspernatur quaerat incidunt praesentium beatae doloremque animi! Provident voluptatem a quas atque nostrum?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit doloribus id numquam eos, voluptatibus sint necessitatibus odit architecto vero molestias cumque incidunt, vitae labore eaque quos est hic quod porro!Lorem</p>
+
+    <h3><strong>Enlaces de interés</strong></h3>
+
+    <ol>
+        <li><a href="https://www.google.com/?hl=es" target="_blank">gugul</a></li>
+        <li><a href="https://www.facebook.com/" target="_blank">Cara de libro</a></li>
+        <li><a href="https://www.youtube.com/" target="_blank">yutu</a></li>
+        
+    </ol>
+
+    <center>
+        <table width="50%" >
+            
+                <tr>
+                    <th colspan="3"> <h2> <span style="color: brown;">apps moviles</span></s></h2>  </th>
+                </tr>
+
+                <tr>
+                    <th><h3><span style="color: rgb(81, 158, 4);"> Whatsapp </span></h3></th>
+                    <th><h3><span style="color: darkblue;"> Facebook </span></h3></th>
+                    <th><h3><span style="color: darkmagenta;"> Instagram </span></h3></th>
+                </tr>
+
+                <tr>
+                    <th> <img src="https://i.pinimg.com/736x/78/f0/46/78f046b172a7b5e17190fc148201faaa.jpg" width="70px"></th>
+                    <th> <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" width="40px"></th>
+                    <th> <img src="https://png.pngtree.com/element_our/png_detail/20181011/instagram-social-media-icon-design-template-vector-png_127006.jpg" width="70px"></th>
+                </tr>
+
+                <tr>
+                    <td><center><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum molestias culpa voluptas delectus rem! Quasi, commodi voluptate, non distinctio iure molestiae animi dolor exercitationem assumenda quos voluptates earum doloremque? Fugit!</p></center></td>
+                    <td><center><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum molestias culpa voluptas delectus rem! Quasi, commodi voluptate, non distinctio iure molestiae animi dolor exercitationem assumenda quos voluptates earum doloremque? Fugit!</p></center></td>
+                    <td><center><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum molestias culpa voluptas delectus rem! Quasi, commodi voluptate, non distinctio iure molestiae animi dolor exercitationem assumenda quos voluptates earum doloremque? Fugit!</p></center></td>
+                </tr>
+        </table>
+    </center>
+
+    <center><img src="https://i.pinimg.com/originals/c7/d7/d5/c7d7d52e0f11d50f639b58013e87fb3c.jpg" width="50%"></center> <br><br> 
+
+
+    <center> <!-- Contacto -->
+        <h2>contáctenos</h2>
+        <form action="ejemplo.php" method="POST">
+            <input type="text" placeholder="Nombre" required> <br><br>
+            <input type="email" placeholder="Correo" required> <br><br>
+            <input type="number" placeholder="Teléfono" required><br><br>
+
+            <button type="submit">Enviar</button>
+            <button type="reset">Cancelar</button><br><br><br><br>
+        </form>
+    </center>
+    
+    <span style="text-align: center;"> <!-- Registro -->
+        <h2>Registro</h2>
+        <form action="ejemplo.php" method="POST">
+            <input type="text" placeholder="Nombre" required> 
+            <input type="text" placeholder="apellidos" required> <br><br>
+            <input type="email" placeholder="Correo" required> <br><br>
+            <input type="password" placeholder="Contraseña" required>
+            <input type="password" placeholder="Confirmación" required><br><br>
+            <input type="number" placeholder="Teléfono"><br><br>
+            <input type="number" placeholder="Edad" required><br><br>
+            <h4>¿Cúal es su gérnero?</h4>
+            <input type="radio"> hombre
+            <input type="radio"> mujer
+            <input type="radio"> otro <br><br>
+
+            <h4>Ingrese su día de nacimiento</h4>
+            <input type="date" required> <br><br>
+
+            <button type="submit">Enviar</button>
+            <button type="reset">Cancelar</button><br><br><br><br>
+        </form>
+    </span>
+
+    <center> <!-- Inicio de sesión -->
+        <h2>Inicio de sesión</h2>
+        <form action="ejemplo.php" method="POST">
+            <input type="email" placeholder="Correo" required> <br><br>
+            <input type="password" placeholder="Contraseña" required> <br><br>
+
+            <button type="submit">Enviar</button>
+            <button type="reset">Cancelar</button><br><br><br><br>
+        </form>
+    </center>
+    
+    <center> <!-- Encuesta -->
+        <h2>Encuesta de satistacción</h2>
+        <form action="ejemplo.php" method="POST">
+            <input type="text" placeholder="Nombre" required> <br><br>
+            <input type="email" placeholder="Correo" required> <br><br>
+            <h4>¿Cómo le pareció nuestro servicio?</h4>
+            <input list="calificacion" required>
+            <datalist id="calificacion">
+                <option value="Excelente">Excelente</option>
+                <option value="Bueno">Bueno</option>
+                <option value="Regular">Regular</option>
+                <option value="Malo">Malo</option>
+            </datalist> 
+            
+            <br><br>
+            <button type="submit">Enviar</button>
+            <button type="reset">Cancelar</button>
+        </form>
+    </center>
+    
+</body>
+</html>

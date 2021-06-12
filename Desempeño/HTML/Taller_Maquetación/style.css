@@ -1,0 +1,108 @@
+*   {
+    
+    width: 100% auto;
+    height: 100% auto;
+    margin: 0px;
+    font-family: 'Baloo Tammudu 2', cursive;
+    background: #e2e2e2;
+}
+
+.title  {
+    background: #000;
+    height: 20% ;
+    width: 100% auto;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    font-size: 28px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+.paragrafo  {
+    line-height: 1.5;
+    margin-top: 2%;
+    margin-right: 25%;
+    margin-left: 25%;
+    justify-content: center;
+    text-align: justify;
+    color: #000;
+}
+
+.herramientas   {
+    justify-content: center;
+    text-align: center;
+    background: #0875ff;
+    margin-top: 20px;
+    margin-left: 23.5%;
+    margin-bottom: 20px;
+}
+
+.listas {
+    margin: auto;
+    width: 50%;
+    height: 350px;
+}
+
+.izquierda  {
+    float: right;
+    margin:auto;
+}
+
+.derecha    {
+    float: left;
+    margin: auto;
+}
+
+.tools   {
+    margin-top: 3%;
+    width: 100% auto;
+    height: 25% auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.imagenes_home  {
+    border-radius: 20px;
+    width: 33%;
+    height: 23%;
+}
+
+.tools1 {
+    margin: auto;
+    width: 33%;
+    float: left;
+ 
+ 
+}
+
+.tools2 {
+    width: 33%;
+    margin: auto;
+    
+    
+    
+}
+
+.tools3 {
+    margin: auto;
+    width: 33%;
+    float: right;
+    
+    
+}
+
+.listas {
+    background: #998df9;
+    text-align: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.encuesta   {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    text-align: center;
+    justify-content: center;
+}
