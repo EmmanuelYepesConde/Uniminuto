@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="main.css">
+   <title>Eventos en el DOM</title>
+</head>
+<body onload="onload()">
+
+   <h3>FORMULARIO 1</h3>
+   <form id="formulario" action="" method="GET">
+      <input type="text" value="Nombre" size="40" onfocus="vaciar(this)" onblur="restablecer(this)">
+      <br><br>
+      <input type="text" value="telefono" onfocus="vaciar(this)" onblur="retablecer(this)">
+      <p>Sexo:
+        <input type="radio" name="hm" value="h"> Hombre
+        <input type="radio" name="hm" value="m"> Mujer
+      </p>
+      <p>
+        <input onmouseover="grande(this)" onmouseout="normal(this)" onclick="subir()" type="submit" value="Enviar">
+        <input onmouseover="grande(this)" onmouseout="normal(this)" onclick="subir()"type="reset" value="Borrar">
+      </p>
+    </form>
+    
+    <br>
+
+    <h3>FORMULARIO 2</h3>
+    <form id="formulario2.0" action="" method="GET">
+       <label for=""><p>User</p></label>
+       <input type="text" name="" id="user" required>
+
+       <label for=""><p>Password</p></label>
+       
+
+      <input type="text" id="password" value =""  required>
+
+      <br><br>
+        
+      <button id="sub" onmouseover="grande(this)" onmouseout="normal(this)" onclick="subir()">enviar</button>
+    </form>
+
+    <br><br>
+
+    <input type="text" id="texto" placeholder="escribe algo aqui">
+    <span id="mostrar-texto">Input vacio  </span>
+
+   <script src="main.js"></script>
+</body>
+</html>
